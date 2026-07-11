@@ -136,14 +136,6 @@ You accidentally started Python interactive mode.
 It happens.
 Press `Ctrl+c` (both keys together) or `Ctrl+Z` then `Enter` on Windows.
 
-## Example Output (Remove this Section after You Verify)
-
-```shell
-| INFO | ML | ========================
-| INFO | ML | Executed successfully!
-| INFO | ML | ========================
-```
-
 ## Findings and Visuals
 
 Take screenshots of your charts and provide them here with a discussion.
@@ -159,11 +151,14 @@ In your custom project:
 
 Replace these placeholders with screenshots from your own project run:
 
-![Project Results](./docs/images/Figure_3.png)
+![Project Results] (./docs/images/Figure_3.png)
 
 ## Project Documentation
 
 Additional project instructions, terms, and notes:
+
+2026 -07-10: Added custom ability to modify function to 20 Bins and changed colors.
+  Prompt: uv run python -m bizintel.mining_case_jonathan
 
 [docs/index.md](docs/index.md)
 

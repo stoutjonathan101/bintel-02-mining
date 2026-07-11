@@ -2,8 +2,8 @@
 
 An example of exploring and mining raw smart sales data.
 
-Author: Denise Case
-Date: 2026-06
+Author: Jonathan Stout
+Date: 2026-07
 
 Process:
     - Load raw CSV data files.
@@ -21,7 +21,7 @@ Data Source:
 
 Terminal command to run this file from the root project folder:
 
-uv run python -m bizintel.mining_case
+uv run python -m bizintel.mining_case_jonathan
 
 OBS:
   Don't edit this file - it should remain a working example.
