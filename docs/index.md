@@ -21,19 +21,13 @@ to get the example projects running on your machine.
 
 ## Phase 4. Technical Modification
 
-Describe your small technical modification to the example project.
+I changed the amount of bins that the mining case returns - this effectively allows us to glean more from the data as it results in higher amounts of categorized data pulls (ranges.)
 
-Include:
+The reason that I wanted to explore this change was to explore how you dont have to necessarily edit the data but rather how the data is pulled.
 
-- What you changed
-- Why you chose that change
-- How you verified that it worked
-- What result, output, chart, metric, or behavior confirmed the change
+Once I ran the new custom app mining_case_jonathan I was able to view this new graph successfully; not only did I change the "bin" parameter but also changed the color to make sure that I was viewing a new graph.
 
-Compared with the example project,
-explain what is different and why the change matters.
-
-Was it easy, or surprisingly challenging and why do you think so?
+This was surprisingly easy; the more I explore these projects the more I realize that the applicable use of copying repos is that they are editable; to find a good repo is less in the code and more in the documentation of what has allready been written, being able to decipher what the foundation of the code is provides the opportunity for refinement into your own case use.
 
 ## Phase 5. Custom Project
 
@@ -45,20 +39,13 @@ Describe the raw data you worked with.
 
 Include:
 
-- The three smart sales data files and what each contains
-- Any data quality issues you observed during loading
-- Any important limitations or assumptions about the raw data
+Overall sales data, product data and customers data. I think it is interesting that the data tables are applied and attributed within the files; as I was writing the code it was confusing where the names were pulling from; I knew that data names but not necessarily the subheadings.
 
 ### Mining Approach
 
 Describe how you explored and visualized the data.
 
-Include:
-
-- Which DataFrames you loaded and inspected
-- What changes you made to make the example charts more effective
-- What distributions or trends you chose to visualize and why
-- What additional chart or analysis you added beyond the example
+I essentially tried to look at the data in the same lense as the original but with greater refinement with bins; this allowed a closer look at the data ranges as it wasn't as grouped.
 
 ### Findings
 
@@ -66,19 +53,12 @@ Describe what you discovered about the smart sales data.
 
 Include:
 
-- What the data reveals about customers, products, and sales
-- What data quality issues are present and how serious they are
-- What questions your exploration raised for later modules
+I think the data is good, it provides a great deal of insight into the sales prices, category and dating which could be extrapolated to seasonal changes, average sales price etc. I do think that the overall problem with the data is that it is too general; "office" for example does not provide a whole lot of insight into what product was bought. You could say that office sales go through the roof in a specific month but without analyzing the specific product you wont know why.
 
 ### Summary
 
 Summarize your custom data mining work.
 
-Include:
+Increasing the "BIN" count allowed us to examine the total sales by region and total sales by category with a new lense.
 
-- What you implemented beyond the example
-- What results or insights you produced
-- What you learned
-- What kinds of real business problems this approach could help answer
-
-Display at least one chart or screenshot showing your work.
+Greater refinement = greater clarity.
